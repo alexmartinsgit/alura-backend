@@ -2,5 +2,5 @@ from django.http import JsonResponse, response
 
 def videos(request):
     if request.method == 'GET':
-        video = {'id': 1, 'titulo': 'Moana'}
+        video = {'id': 1, 'titulo': 'Moana', 'url':'www.videos.com'}
         return JsonResponse(video)
