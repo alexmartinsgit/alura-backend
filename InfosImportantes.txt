@@ -15,6 +15,11 @@ Comandos importantes utilizados no projeto
     git commit -m ""
     git log
     git log oneline
+    git log --help
+    git init --bare (dentro da pasta servidor local)
+    git remote add nomedoservidor endereçoDoServidorLocal (dentro da pasta de trabalho)
+    git remote -v
     
+
 
     
